@@ -1,5 +1,9 @@
 **简单实现RAG项目**
 
+  .env - 大模型API
+
+  requirement.txt - 环境及版本
+
   utils.py - 读取data文件夹下的文档并对其中文本分块处理，得到分块后的文本块列表
 
   Embeddings.py - 根据调用的API的LLM中的embedding模型将输入的文档text向量化
